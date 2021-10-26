@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>museum</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header dark-section">
+        <div class="container header-nav">
+            <div class="header__logo">
+                <span class="header__logo-text">Louvre</span>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="#visiting" class="header__nav-item-link">Visiting</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#explore" class="header__nav-item-link">Explore</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#video" class="header__nav-item-link">Video</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#gallery" class="header__nav-item-link">Gallery</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#tickets" class="header__nav-item-link">Tickets</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#contacts" class="header__nav-item-link">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__burger">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="hidden">Museum</h1>
+        <section class="section dark-section video-section welcome parallax">
+            <div class="container welcome-part">
+                <h2 class="section__title welcome__title">Welcome<br /> to the Louvre</h2>
+                <p class="welcome__text">From the castle to the museum</p>
+                <a href="" class="welcome__button">Discover the Louvre</a>
+            </div>
+            <div class="welcome__slider">
+                <span class="welcome__slider-num">01 | 05</span>
+                <div class="welcome__slider-buttons">
+                    <button class="welcome__slider-button welcome__slider-button-active"></button>
+                    <button class="welcome__slider-button"></button>
+                    <button class="welcome__slider-button"></button>
+                    <button class="welcome__slider-button"></button>
+                    <button class="welcome__slider-button"></button>
+                </div>
+                <div class="welcome__slider-arrows">
+                    <button class="welcome__slider-arrows welcome__slider-arrows-left">
+                        <svg class="welcome__slider-arrows-svg" width="30" height="8" viewBox="0 0 30 8" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.72254 8C3.90173 6.31339 1.99422 5.08262 0 4.30769V3.69231C1.99422 2.89459 3.90173 1.66382 5.72254 0H7.23988C6.37283 1.4359 5.53468 2.52991 4.72543 3.28205H30V4.71795H4.72543C5.53468 5.47009 6.37283 6.5641 7.23988 8H5.72254Z"/>
+                            </svg>
+                            
+                    </button>
+                    <button class="welcome__slider-arrows welcome__slider-arrows-right">
+                        <svg class="welcome__slider-arrows-svg" width="30" height="8" viewBox="0 0 30 8" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24.2775 1.97284e-06C26.0983 1.68661 28.0058 2.91738 30 3.69231L30 4.30769C28.0058 5.10541 26.0983 6.33618 24.2775 8L22.7601 8C23.6272 6.5641 24.4653 5.47009 25.2746 4.71795L3.48964e-07 4.71795L5.01636e-07 3.28205L25.2746 3.28205C24.4653 2.52992 23.6272 1.4359 22.7601 1.86378e-06L24.2775 1.97284e-06Z"/>
+                            </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section visiting" id="visiting">
+            <div class="container">
+                <h2 class="section__title section__title-white visiting__title underline-title">Virtual tour</h2>
+                <div class="visiting__cards">
+                    <a href="" class="visiting__card-link">
+                        <img src="assets/img/royal-palace.jpg" alt="royal-palace" class="visiting__card-image">
+                        <h3 class="visiting__card-title">Royal Palace</h3>
+                        <p class="visiting__card-text-virtual">360° Virtual Tour</p>
+                        <p class="visiting__card-text-panorama">Google Street Panorama View</p>
+                    </a>
+                    <a href="" class="visiting__card-link">
+                        <img src="assets/img/demon-wing.jpg" alt="demon-wing" class="visiting__card-image">
+                        <h3 class="visiting__card-title">Denon Wing</h3>
+                        <p class="visiting__card-text-virtual">360° Virtual Tour</p>
+                        <p class="visiting__card-text-panorama">Google Street Panorama View</p>
+                    </a>
+                    <a href="" class="visiting__card-link">
+                        <img src="assets/img/collonade.jpg" alt="collonade" class="visiting__card-image">
+                        <h3 class="visiting__card-title">Colonnade Perrault</h3>
+                        <p class="visiting__card-text-virtual">360° Virtual Tour</p>
+                        <p class="visiting__card-text-panorama">Google Street Panorama View</p>
+                    </a>
+                    <a href="" class="visiting__card-link">
+                        <img src="assets/img/greek-hall.jpg" alt="greek-hall" class="visiting__card-image">
+                        <h3 class="visiting__card-title">Greek hall</h3>
+                        <p class="visiting__card-text-virtual">360° Virtual Tour</p>
+                        <p class="visiting__card-text-panorama">Google Street Panorama View</p>
+                    </a>
+                    <a href="" class="visiting__card-link">
+                        <img src="assets/img/mona-lisa.jpg" alt="mona-lisa" class="visiting__card-image">
+                        <h3 class="visiting__card-title">Mona Lisa</h3>
+                        <p class="visiting__card-text-virtual">360° Virtual Tour</p>
+                        <p class="visiting__card-text-panorama">Google Street Panorama View</p>
+                    </a>
+                    <a href="" class="visiting__card-link">
+                        <img src="assets/img/night-palace.jpg" alt="night-palace" class="visiting__card-image">
+                        <h3 class="visiting__card-title">Night Palace</h3>
+                        <p class="visiting__card-text-virtual">360° Virtual Tour</p>
+                        <p class="visiting__card-text-panorama">Google Street Panorama View</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section dark-section explore" id="explore">
+            <div class="container explore">
+                <div class="explore__content">
+                    <h2 class="section__title explore__title underline-title">Picture explore</h2>
+                    <p class="explore__text">Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age.</p>
+                    <p class="explore__text">It was cleaned in 1984 to remove a <span class="explore__text-yellow">"yellow veil"</span> of dust that had gathered since the previous restoration in the 19th century.</p>
+                    <p class="explore__text explore__text-1024">The cleaning provoked furious protests, not because the picture had been damaged in any way, but because it looked different.</p>
+                </div>
+                <div class="explore__block-img">
+                    <img src="assets/img/explore.jpg" alt="picture explore" class="explore__img">
+                </div>
+        </div>
+        </section>
+
+        <section class="section video-section video" id="video">
+            <div class="container">
+                <div class="video__block-text">
+                    <h2 class="section__title section__title-white  video__title">Video journey</h2>
+                    <p class="video__text">Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code</p>
+                </div>
+
+                <img src="assets/img/video.jpg" alt="video" class="video__img">
+
+                <div class="video__range">
+
+                    <button class="button__play">
+                        <svg width="23" height="31" viewBox="0 0 23 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M23 15.5053L0 0C0 23.3683 0 11.8996 0 31L23 15.5053Z" fill="#B3B3B3"/>
+                            </svg>
+                    </button>
+
+                    <input type="range" value="40" min="0" max="100" step="1" class="progress">
+
+                    <button class="button__volume">
+                        <svg width="38" height="31" viewBox="0 0 38 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.3511 0C18.875 0 18.4622 0.161587 18.1138 0.484761L8.9609 8.97374H1.76C1.28282 8.97374 0.871122 9.13533 0.522673 9.4585C0.174224 9.78167 0 10.1645 0 10.6061V20.3939C0 20.8355 0.174224 21.2183 0.522673 21.5415C0.871122 21.8647 1.28393 22.0263 1.76 22.0263H8.9609L18.1138 30.5152C18.4622 30.8384 18.8739 31 19.3511 31C19.8283 31 20.24 30.8384 20.5884 30.5152C20.9369 30.1921 21.1111 29.8102 21.1111 29.3677V1.63234C21.1111 1.1908 20.9369 0.807935 20.5895 0.484761C20.2422 0.161587 19.8294 0 19.3522 0H19.3511Z" fill="#B3B3B3"/>
+                            <path d="M29.5979 19.1322C30.3389 18.0151 30.7094 16.8082 30.7094 15.5103C30.7094 14.2125 30.3389 13.0014 29.5979 11.8751C28.8569 10.7487 27.8774 9.95512 26.6561 9.49425C26.4819 9.40952 26.2634 9.36612 26.0027 9.36612C25.5499 9.36612 25.1572 9.52422 24.8258 9.83939C24.4943 10.1566 24.3286 10.5431 24.3286 11.004C24.3286 11.3625 24.4331 11.6653 24.6432 11.9123C24.8532 12.1592 25.1044 12.3731 25.4011 12.5519C25.6966 12.7307 25.9932 12.927 26.2898 13.1409C26.5864 13.3548 26.8387 13.6565 27.0477 14.0492C27.2567 14.4419 27.3612 14.9286 27.3612 15.5083C27.3612 16.088 27.2567 16.5747 27.0477 16.9673C26.8387 17.36 26.5864 17.6628 26.2898 17.8756C25.9932 18.0885 25.6966 18.2859 25.4011 18.4646C25.1044 18.6434 24.8522 18.8573 24.6432 19.1043C24.4342 19.3512 24.3286 19.655 24.3286 20.0126C24.3286 20.4734 24.4954 20.8609 24.8258 21.1771C25.1572 21.4913 25.5488 21.6514 26.0027 21.6514C26.2634 21.6514 26.4819 21.6091 26.6561 21.5233C27.8763 21.0449 28.8569 20.2471 29.5979 19.1291V19.1322Z" fill="#B3B3B3"/>
+                            <path d="M35.7563 22.8582C37.252 20.6112 37.9999 18.1571 37.9999 15.499C37.9999 12.8419 37.252 10.3899 35.7563 8.13971C34.2605 5.89271 32.2811 4.25452 29.819 3.23039C29.591 3.14417 29.362 3.10001 29.1329 3.10001C28.6759 3.10001 28.2796 3.26509 27.9451 3.59525C27.6105 3.92541 27.4443 4.31551 27.4443 4.76764C27.4443 5.44479 27.7874 5.95685 28.4735 6.30489C29.4579 6.80855 30.1269 7.19023 30.4785 7.45099C31.7803 8.38891 32.7967 9.56445 33.5265 10.9797C34.2562 12.395 34.6216 13.9007 34.6216 15.5C34.6216 17.0972 34.2562 18.6039 33.5265 20.0203C32.7967 21.4356 31.7803 22.6111 30.4785 23.549C30.1269 23.8098 29.4579 24.1915 28.4735 24.6951C27.7874 25.0432 27.4443 25.5542 27.4443 26.2324C27.4443 26.6835 27.6116 27.0746 27.9451 27.4048C28.2785 27.7349 28.6833 27.9 29.1585 27.9C29.3694 27.9 29.59 27.8558 29.818 27.7696C32.28 26.7444 34.2605 25.1084 35.7552 22.8593L35.7563 22.8582Z" fill="#B3B3B3"/>
+                            </svg>
+                    </button>
+
+                    <input type="range" value="40" min="0" max="100" step="1" class="progress-volume">
+
+                    <button class="button__full-screen">
+                        <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M30.6055 30.7513H22.4097V34.8638H34.7083V22.5069H30.6055V30.7513Z" fill="#B3B3B3"/>
+                            <path d="M4.10278 22.5069H0V34.8638H12.2986V30.7513H4.10278V22.5069Z" fill="#B3B3B3"/>
+                            <path d="M0 12.3569H4.10278V4.12222H12.2986V0H0V12.3569Z" fill="#B3B3B3"/>
+                            <path d="M22.4097 0V4.12222H30.6055V12.3569H34.7083V0H22.4097Z" fill="#B3B3B3"/>
+                            </svg>
+                    </button>
+                </div>
+
+                <div class="video__slide">
+                    <img src="assets/img/video-slide-1.jpg" alt="slide-1" class="video__slide-item">
+                    <img src="assets/img/video-slide-2.jpg" alt="slide-2" class="video__slide-item">
+                    <img src="assets/img/video-slide-3.jpg" alt="slide-3" class="video__slide-item">
+                </div>
+
+                <div class="video__pagination">
+                    <button class="video__pagination-item-left">
+                        <svg class="video__pagination-item-left-svg" width="10" height="12" viewBox="0 0 10 12" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.4777 0.219168C5.87773 0.564178 5.94259 1.19347 5.62256 1.62473L2.37578 6.00004L5.62256 10.3753C5.94259 10.8066 5.87773 11.4359 5.4777 11.7809C5.07766 12.1259 4.49394 12.056 4.17391 11.6247L0 6.00004L4.17391 0.375342C4.49394 -0.0559202 5.07766 -0.125842 5.4777 0.219168ZM9.65184 0.219168C10.0519 0.564178 10.1167 1.19347 9.7967 1.62473L6.54992 6.00004L9.7967 10.3753C10.1167 10.8066 10.0519 11.4359 9.65184 11.7809C9.2518 12.1259 8.66808 12.056 8.34805 11.6247L4.17414 6.00004L8.34805 0.375342C8.66808 -0.0559202 9.2518 -0.125842 9.65184 0.219168Z"/>
+                            </svg>
+                    </button>
+
+                    <button class="video__pagination-item video__pagination-item-active"></button>
+                    <button class="video__pagination-item"></button>
+                    <button class="video__pagination-item"></button>
+                    <button class="video__pagination-item"></button>
+
+                    <button class="video__pagination-item-right">
+                        <svg class="video__pagination-item-right-svg" width="10" height="12" viewBox="0 0 10 12" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.348163 0.219168C0.748196 -0.125842 1.33192 -0.0559202 1.65195 0.375342L5.82586 6.00004L1.65194 11.6247C1.33192 12.056 0.748195 12.1259 0.348162 11.7809C-0.0518709 11.4359 -0.116729 10.8066 0.203297 10.3753L3.45008 6.00004L0.203298 1.62473C-0.116728 1.19347 -0.05187 0.564177 0.348163 0.219168ZM4.5223 0.219168C4.92234 -0.125841 5.50606 -0.0559197 5.82609 0.375342L10 6.00004L5.82609 11.6247C5.50606 12.056 4.92234 12.1259 4.5223 11.7809C4.12227 11.4359 4.05741 10.8066 4.37744 10.3753L7.62422 6.00004L4.37744 1.62473C4.05741 1.19347 4.12227 0.564178 4.5223 0.219168Z"/>
+                            </svg>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section dark-section gallery" id="gallery">
+            <div class="container">
+                <h2 class="section__title gallery__title">Art Gallery</h2>
+                <div class="gallery__block masonry-with-columns">
+                    <img src="assets/img/gallery/gallery-1.jpg" alt="marble statue with deer" class="gallery__img gallery__img-top">
+                    <img src="assets/img/gallery/gallery-2.jpg" alt="marble statues" class="gallery__img">
+                    <img src="assets/img/gallery/gallery-3.jpg" alt="marble statue with wings" class="gallery__img">
+                    <img src="assets/img/gallery/gallery-4.jpg" alt="two women" class="gallery__img">
+                    <img src="assets/img/gallery/gallery-5.jpg" alt="two angels" class="gallery__img">
+                    <img src="assets/img/gallery/gallery-6.jpg" alt="two angels" class="gallery__img">
+                    <img src="assets/img/gallery/gallery-7.jpg" alt="arch" class="gallery__img">
+                    <img src="assets/img/gallery/gallery-8.jpg" alt="the statue without hands" class="gallery__img">
+                    <img src="assets/img/gallery/gallery-9.jpg" alt="mona-lisa" class="gallery__img gallery__img-top">
+                    <img src="assets/img/gallery/gallery-10.jpg" alt="a house with a blue roof" class="gallery__img">
+                    <img src="assets/img/gallery/gallery-11.jpg" alt="pyramid" class="gallery__img">
+                    <img src="assets/img/gallery/gallery-12.jpg" alt="statues and trees" class="gallery__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="section tickets" id="tickets">
+            <div class="container">
+                <h2 class="section__title section__title-tickets section__title-white underline-title">BUY TICKETS</h2>
+
+                <div class="tickets__block">
+                    <img src="assets/img/tickets.jpg" alt="a knight and a naked woman" class="tickets__block-img">
+
+                    <form class="ticket__filter" method="get" action="#" target="_blank">
+                        <!-- radio -->
+                        <fieldset>
+                            <legend class="ticket__type-title">Ticket Type</legend>
+                            <ul class="ticket__type-list">
+                                <li class="ticket__type-list-item">
+                                    <input class="ticket__type-list-radio hidden" type="radio" name="radio" id="permanent" checked="checked">
+                                    <label for="permanent" class="ticket__type-label">Permanent exhibition</label>
+                                </li>
+                                <li class="ticket__type-list-item">
+                                    <input class="ticket__type-list-radio hidden" type="radio" name="radio" id="temporary" checked="checked">
+                                    <label for="temporary" class="ticket__type-label">Temporary exhibition</label>
+                                </li>
+                                <li class="ticket__type-list-item">
+                                    <input class="ticket__type-list-radio hidden" type="radio" name="radio" id="combined">
+                                    <label for="combined" class="ticket__type-label">Combined Admission</label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    <!-- ./radio -->
+
+                    <div class="ticket__total-block">
+                        <fieldset>
+                            <legend class="ticket__type-title ticket__amount-title">Amount</legend>
+                                <ul class="ticket__amount-list">
+                                    <li class="ticket__amount-list-item">
+                                        <label for="ticket__amount-label-18" class="ticket__amount-text">Basic 18+</label>
+                                        <div class="ticket__amount-count">
+                                            <button class="ticket__amount-count-button" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                                            <input class ="ticket__amount-label" id="ticket__amount-label-18" type="number" min="0" max="20" value="1" readonly>
+                                            <button class="ticket__amount-count-button" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                                        </div>
+                                    </li>
+                                    <li class="ticket__amount-list-item">
+                                        <label for="ticket__amount-label-65" class="ticket__amount-text">Senior 65+</label>
+                                        <div class="ticket__amount-count">
+                                            <button class="ticket__amount-count-button" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                                            <input class ="ticket__amount-label" id="ticket__amount-label-65" type="number" min="0" max="20" value="1" readonly>
+                                            <button class="ticket__amount-count-button" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                                        </div>
+                                    </li>
+                                </ul>
+                        </fieldset>
+
+                        <h5 class="ticket__total">Total € 220</h5>
+
+                        <button type="submit" class="ticket__button">Buy Now</button>
+                    </div>
+
+                </form>
+            </div>
+
+                </div>
+            <img src="assets/img/panorama.jpg" alt="panorama of museum" class="ticket__panorama">
+        </section>
+
+        <section class="section contacts" id="contacts">
+            <div class="container">
+                <h2 class="section__title section__title-contacts section__title-white underline-title">Contacts</h2>
+                <div class="contacts__block">
+                    <div class="contacts__block-left">
+                        <h5 class="contacts__block-title">Palais Royal Musee du Louvre</h5>
+                        <p class="contacts__block-text">address: 75001 Paris, France</p>
+                        <p class="contacts__block-text">phone: <a href="tel" class="contacts__block-tel-link">+33(0) 1 40 20 50 50</a></p>
+                        <p class="contacts__block-text">mail: <a href="mailto:info@louvre.fr" class="contacts__block-mail-link">info@louvre.fr</a></p>
+                    </div>
+                    <div class="contacts__block-map">
+                        <img src="assets/img/map.jpg" alt="map" class="contacts__map">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer dark-section">
+        <div class="container footer__contacts">
+            <div class="header__logo  footer__logo">
+                <span class="header__logo-text">Louvre</span>
+            </div>
+            <nav class="footer__nav-menu">
+                <ul class="footer__nav-menu-list">
+                    <li class="footer__nav-menu-link">
+                        <a href="#" class="link">Visiting</a></li>
+                    <li class="footer__nav-menu-link">
+                        <a href="#" class="link">Explore</a></li>
+                    <li class="footer__nav-menu-link">
+                        <a href="#" class="link">Video</a></li>
+                    <li class="footer__nav-menu-link">
+                        <a href="#" class="link">Gallery</a></li>
+                    <li class="footer__nav-menu-link">
+                        <a href="#" class="link">Tickets</a></li>
+                    <li class="footer__nav-menu-link">
+                        <a href="#" class="link">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="footer__social">
+                <ul class="footer__social-list">
+                    <li class="footer__social-link">
+                        <svg class="footer__social-link-svg" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.03 15.38V8.62L15.97 12L10.03 15.38ZM23.23 6.5C23.1026 6.01772 22.8508 5.57733 22.4998 5.22285C22.1488 4.86838 21.711 4.61222 21.23 4.48C19.46 4 12.35 4 12.35 4C12.35 4 5.25 4 3.48 4.48C2.99901 4.61222 2.56115 4.86838 2.21018 5.22285C1.85921 5.57733 1.60743 6.01772 1.48 6.5C1 8.28 1 12 1 12C1 12 1 15.72 1.47 17.5C1.5983 17.9835 1.85159 18.4247 2.20441 18.7793C2.55723 19.1338 2.99717 19.3893 3.48 19.52C5.25 20 12.36 20 12.36 20C12.36 20 19.46 20 21.23 19.52C21.711 19.3878 22.1488 19.1316 22.4998 18.7771C22.8508 18.4227 23.1026 17.9823 23.23 17.5C23.71 15.72 23.71 12 23.71 12C23.71 12 23.71 8.28 23.24 6.5H23.23Z"/>
+                            </svg>
+                    </li>
+                    <li class="footer__social-link">
+                        <svg class="footer__social-link-svg" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.0202 2C14.8202 2 15.2002 2.02 16.1202 2.06C17.1802 2.11 17.9102 2.28 18.5402 2.53C19.2002 2.78 19.7602 3.13 20.3102 3.68C20.8702 4.23 21.2102 4.79 21.4702 5.45C21.7202 6.08 21.8802 6.81 21.9302 7.88C21.9802 8.83 21.9902 9.2 21.9902 11.2V12.8C21.9902 14.8 21.9802 15.17 21.9302 16.12C21.9144 16.9468 21.7589 17.7651 21.4702 18.54C21.2102 19.2 20.8702 19.76 20.3202 20.31C19.7602 20.87 19.2002 21.21 18.5402 21.47C17.9102 21.72 17.1802 21.88 16.1202 21.93C15.1702 21.98 14.7902 21.99 12.7902 21.99H11.2002C9.20015 21.99 8.83015 21.98 7.87015 21.93C7.04333 21.9141 6.22515 21.7586 5.45015 21.47C4.78376 21.2195 4.17981 20.8271 3.68015 20.32C3.16796 19.8186 2.77199 19.211 2.52015 18.54C2.23177 17.765 2.07626 16.9468 2.06015 16.12C2.01113 15.0874 1.99112 14.0537 2.00015 13.02V10.97C2.00015 9.17 2.02015 8.79 2.06015 7.87C2.11015 6.81 2.28015 6.08 2.52015 5.45C2.78015 4.79 3.12015 4.23 3.68015 3.68C4.17533 3.16743 4.78059 2.77418 5.45015 2.53C6.22461 2.23821 7.04278 2.07931 7.87015 2.06C8.79015 2.02 9.17015 2 10.9702 2H13.0202ZM13.0402 3.8H10.9502C9.22015 3.8 8.85015 3.82 7.95015 3.86C6.98015 3.9 6.45015 4.06 6.10015 4.2C5.63015 4.38 5.30015 4.6 4.95015 4.95C4.60015 5.3 4.38015 5.63 4.20015 6.1C4.07015 6.45 3.90015 6.98 3.86015 7.96C3.82015 8.86 3.80015 9.22 3.80015 10.96V13.04C3.80015 14.78 3.82015 15.14 3.86015 16.04C3.90015 17.01 4.06015 17.54 4.20015 17.89C4.38015 18.36 4.60015 18.69 4.95015 19.04C5.30015 19.39 5.63015 19.61 6.10015 19.79C6.45015 19.93 6.98015 20.09 7.96015 20.13C8.93015 20.18 9.28015 20.19 11.4402 20.19H12.5502C14.7202 20.19 15.0602 20.18 16.0402 20.13C17.0102 20.09 17.5402 19.93 17.8902 19.79C18.3602 19.61 18.6902 19.39 19.0402 19.04C19.3902 18.69 19.6102 18.36 19.7902 17.89C19.9302 17.54 20.0902 17.01 20.1302 16.04C20.1802 15.06 20.1902 14.72 20.1902 12.55V11.45C20.1902 9.28 20.1802 8.93 20.1302 7.95C20.0902 6.98 19.9302 6.45 19.7902 6.1C19.6292 5.66543 19.373 5.27246 19.0402 4.95C18.7179 4.61692 18.3249 4.3606 17.8902 4.2C17.2971 3.98317 16.6716 3.86822 16.0402 3.86C15.0409 3.81227 14.0405 3.79226 13.0402 3.8ZM12.0002 6.86C13.362 6.86 14.6681 7.40101 15.6311 8.36401C16.5941 9.32701 17.1352 10.6331 17.1352 11.995C17.1352 13.3569 16.5941 14.663 15.6311 15.626C14.6681 16.589 13.362 17.13 12.0002 17.13C10.6383 17.13 9.33216 16.589 8.36916 15.626C7.40616 14.663 6.86515 13.3569 6.86515 11.995C6.86515 10.6331 7.40616 9.32701 8.36916 8.36401C9.33216 7.40101 10.6383 6.86 12.0002 6.86ZM12.0002 8.66C11.1157 8.66 10.2674 9.01136 9.64195 9.6368C9.01652 10.2622 8.66515 11.1105 8.66515 11.995C8.66515 12.8795 9.01652 13.7278 9.64195 14.3532C10.2674 14.9786 11.1157 15.33 12.0002 15.33C12.8847 15.33 13.7329 14.9786 14.3584 14.3532C14.9838 13.7278 15.3352 12.8795 15.3352 11.995C15.3352 11.1105 14.9838 10.2622 14.3584 9.6368C13.7329 9.01136 12.8847 8.66 12.0002 8.66ZM17.3302 5.46C17.6484 5.46 17.9536 5.58643 18.1787 5.81147C18.4037 6.03652 18.5302 6.34174 18.5302 6.66C18.5302 6.97826 18.4037 7.28348 18.1787 7.50853C17.9536 7.73357 17.6484 7.86 17.3302 7.86C17.0119 7.86 16.7067 7.73357 16.4816 7.50853C16.2566 7.28348 16.1302 6.97826 16.1302 6.66C16.1302 6.34174 16.2566 6.03652 16.4816 5.81147C16.7067 5.58643 17.0119 5.46 17.3302 5.46Z"/>
+                            </svg>
+                    </li>
+                    <li class="footer__social-link">
+                        <svg class="footer__social-link-svg" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.78 22L9.75 13.25H6V9.5H9.75V7C9.75 3.63 11.84 2 14.85 2C16.29 2 17.53 2.1 17.89 2.15V5.68H15.8C14.17 5.68 13.85 6.46 13.85 7.6V9.5H18.5L17.25 13.25H13.85V22H9.78Z"/>
+                            </svg>
+                    </li>
+                    <li class="footer__social-link">
+                        <svg class="footer__social-link-svg" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 5.88C21.25 6.25 20.5 6.38 19.62 6.5C20.5 6 21.12 5.25 21.37 4.25C20.5606 4.73131 19.6743 5.06959 18.75 5.25C17.9485 4.46227 16.8737 4.01446 15.75 4C13.62 4 11.75 5.88 11.75 8.13C11.75 8.5 11.75 8.75 11.88 9C10.2422 8.93823 8.63643 8.52707 7.17046 7.79408C5.70448 7.0611 4.41212 6.02321 3.38 4.75C3.00812 5.39563 2.83425 6.13634 2.88 6.88C2.89162 7.55196 3.06825 8.21077 3.39434 8.79842C3.72043 9.38608 4.18597 9.88456 4.75 10.25C4.12 10.25 3.5 10 2.87 9.75C2.87 11.75 4.25 13.38 6.12 13.75C5.75 13.88 5.37 13.88 5 13.88C4.75 13.88 4.5 13.88 4.25 13.75C4.75 15.38 6.25 16.63 8.13 16.63C6.67779 17.7963 4.8622 18.4156 3 18.38H2C3.87496 19.5591 6.03554 20.2056 8.25 20.25C15.75 20.25 19.88 14 19.88 8.62V8.12C20.7387 7.53355 21.4617 6.76969 22 5.88Z"/>
+                            </svg>
+                    </li>
+                    <li class="footer__social-link">
+                        <svg class="footer__social-link-svg" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.0002 2C9.67571 2.00824 7.42667 2.82602 5.63977 4.31277C3.85286 5.79952 2.63972 7.86234 2.20891 10.1466C1.77809 12.4309 2.15652 14.7939 3.27913 16.8293C4.40174 18.8648 6.1984 20.4456 8.36023 21.3C8.26023 20.51 8.19023 19.3 8.39023 18.43L9.56023 13.46C9.56023 13.46 9.26023 12.86 9.26023 11.98C9.26023 10.59 10.0702 9.56 11.0802 9.56C11.9302 9.56 12.3502 10.2 12.3502 10.96C12.3502 11.82 11.8002 13.1 11.5102 14.29C11.2702 15.29 12.0102 16.1 13.0002 16.1C14.7802 16.1 16.1402 14.23 16.1402 11.53C16.1402 9.13 14.4202 7.47 11.9602 7.47C11.3758 7.44433 10.7923 7.53734 10.2448 7.74342C9.69733 7.94951 9.19729 8.26438 8.77487 8.66904C8.35245 9.07371 8.01641 9.55977 7.78702 10.0979C7.55763 10.636 7.43966 11.215 7.44023 11.8C7.44023 12.66 7.77023 13.58 8.18023 14.08C8.26023 14.18 8.27023 14.27 8.24023 14.37L7.96023 15.5C7.92023 15.68 7.81023 15.73 7.63023 15.64C6.37023 15.05 5.59023 13.24 5.59023 11.76C5.59023 8.61 7.89023 5.72 12.2102 5.72C15.6702 5.72 18.3802 8.18 18.3802 11.49C18.3802 14.94 16.2002 17.71 13.1802 17.71C12.1802 17.71 11.2202 17.18 10.9002 16.56L10.2702 18.93C9.97509 19.8577 9.55811 20.7421 9.03023 21.56C10.4041 21.9816 11.8526 22.1021 13.2772 21.9133C14.7018 21.7245 16.069 21.2309 17.2856 20.4661C18.5023 19.7014 19.5398 18.6833 20.3275 17.4814C21.1152 16.2795 21.6346 14.9219 21.8504 13.5011C22.0661 12.0804 21.9731 10.6298 21.5776 9.24822C21.1822 7.86664 20.4936 6.58652 19.5588 5.49506C18.6241 4.40359 17.465 3.52642 16.1607 2.9233C14.8563 2.32017 13.4373 2.00525 12.0002 2Z"/>
+                            </svg>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr class="hr">
+        <div class="container footer__info">
+            <p class="footer__info">© 2021</p>
+            <p class="footer__info">The Rolling Scopes School</p>
+            <p class="footer__info">Username</p>
+        </div>
+    </footer>
+
+    <section class="modal">
+        <button class="close-button">
+            <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L26 26" stroke="#030303"/>
+                <path d="M26 1L1 26" stroke="#030303"/>
+                </svg>
+        </button>
+            <form action="#" class="modal__form">
+                <div class="modal__card-left">
+                    <img src="assets/svg/logo-modal.svg" alt="logo museum" class="modal__logo">
+                    <h2 class="modal__title">Booking tickets</h2>
+                    <p class="modal__text">Tour to Louvre</p>
+                    <div class="modal__date-time">
+                        <input class="modal__input modal__input-date" type="date" id="date" name="date">
+                        <input class="modal__input modal__input-time" type="time" id="appt" name="appt">
+                    </div>
+                    <input class="modal__input" type="text" placeholder="Name">
+                    <input class="modal__input" type="email" name="email" required="required" placeholder="E-mail">
+                    <input class="modal__input" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Phone">
+                    <div class="modal__input-ticket">
+                        <label for="select">Ticket Type</label>
+                        <select class="modal__input modal__input-select" id="select" name="theme" required="required">
+                            <option value="">Ticket Type</option>
+                            <option class="modal__input-option">Permanent exhibition</option>
+                            <option class="modal__input-option">Temporary exhibition</option>
+                            <option class="modal__input-option">Combined Admission</option>
+                        </select>
+                    </div>
+                    <div class="modal__entry">
+                        <h5 class="modal__entry-title">Entry ticket</h5>
+                        <div class="modal__entry-18">
+                            <label for="ticket__amount-label-basic" class="modal__entry-label">Basic 18+ (20 €)</label>
+                                <div class="modal__entry-block">
+                                    <button class="modal__entry-button" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                                    <input class ="modal__entry-input" id="ticket__amount-label-basic" type="number" min="0" max="20" value="1" readonly>
+                                    <button class="modal__entry-button" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                                </div>
+                        </div>
+                        <div class="modal__entry-18">
+                            <label for="ticket__amount-label-senior" class="modal__entry-label">Senior 65+ (10 €)</label>
+                                <div class="modal__entry-block">
+                                    <button class="modal__entry-button" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                                    <input class ="modal__entry-input" id="ticket__amount-label-senior" type="number" min="0" max="20" value="1" readonly>
+                                    <button class="modal__entry-button" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal__card-right">
+                    <div class="modal__card-overview">
+                        <h5 class="modal__card-overview-title">Overview</h5>
+                        <h6 class="modal__card-overview-text">Tour to Louvre</h6>
+                        <p class="modal__card-overview-mean">Friday, August 19</p>
+                        <p class="modal__card-overview-mean">16 : 30</p>
+                        <p class="modal__card-overview-mean">Temporary exhibition</p>
+                    </div>
+                    <div class="modal__card-right-total">
+                        <div class="modal__card-right-total-basic">
+                            <p class="modal__card-right-total-basic-count">2</p>
+                            <p class="modal__card-right-total-basic-name">Basic (20 €)</p>
+                            <p class="modal__card-right-total-basic-sum">40 €</p>
+                        </div>
+                        <div class="modal__card-right-total-senior">
+                            <p class="modal__card-right-total-basic-count">2</p>
+                            <p class="modal__card-right-total-basic-name">Senior (10 €)</p>
+                            <p class="modal__card-right-total-basic-sum">20 €</p>
+                        </div>
+                    </div>
+                    <div class="modal__card-total-sum">
+                        <p class="modal__card-total-sum-text">Total:</p>
+                        <p class="modal__card-total-sum-text">60 €</p>
+                    </div>
+                    <div class="modal__card-visa">
+                    <div class="modal__card-visa-front">
+                        <label for="card-visa" class="modal__card-visa-front-card-number">Card number</label>
+                        <input type="number" class="modal__card-visa-front-input" id="card-visa" min="01" max="10">
+
+                        <label for="card-number" class="modal__card-visa-front-card-number">Expiration date</label>
+                        <div class="modal__card-visa-date-block">
+                            <input type="number" class="modal__card-visa-date" min="1" max="31">
+                            <input type="number" class="modal__card-visa-date" min="2000" max="2020"> 
+                        </div>
+                        <label for="card-number" class="modal__card-visa-front-card-number">Cardholder name</label>
+                        <input type="text" class="modal__card-visa-front-input modal__card-visa-front-input-name" id="card-number"> 
+                    </div>
+                    <div class="modal__card-visa-reverse">
+                        <div class="modal__card-visa-reverse-black"></div>
+                        <label for="card-cvv" class="modal__card-visa-front-card-number">CVC/CVV</label>
+                        <input type="number" class="modal__card-visa-reverse-input" id="card-cvv" min="001" max="999">
+                        <p class="modal__card-visa-reverse-text">The last 3 or 4 digits on back of the card</p>
+                    </div>
+                    </div>
+                    <button type="submit" class="modal__button">Book</button>
+                </div>
+            </form>
+    </section>
+<script src='js/script.js'></script>
+<script src='js/smoothScroll.js'></script>
+<script src='js/modal.js'></script>
+</body>
+</html>
